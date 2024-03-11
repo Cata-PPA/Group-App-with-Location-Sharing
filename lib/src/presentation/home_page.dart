@@ -58,7 +58,7 @@ class _HomePageState extends State<HomePage> {
                       StoreProvider.of<AppState>(context).dispatch(const Logout());
                     },
                     icon: const Icon(Icons.logout),
-                  )
+                  ),
                 ],
               ),
               body: currentUserLocation == null
@@ -99,11 +99,11 @@ class _HomePageState extends State<HomePage> {
                                         ),
                                       );
                                     },
-                                  )
+                                  ),
                               ],
                             );
                           },
-                        )
+                        ),
                       ],
                     ),
             );
